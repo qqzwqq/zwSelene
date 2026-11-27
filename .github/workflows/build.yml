@@ -51,7 +51,7 @@ jobs:
         run: |
           SOURCE_REF="${{ inputs.source_ref || 'main' }}"
           echo "Using source branch: $SOURCE_REF"
-          git clone --depth 1 --single-branch --branch "$SOURCE_REF" https://${{ secrets.PULL_TOKEN }}@${{ secrets.REPO_URL }}.git .
+          git clone --depth 1 --single-branch --branch "$SOURCE_REF" "https://x-access-token:${{ secrets.PULL_TOKEN }}@github.com/${{ secrets.REPO_URL }}.git" .
         shell: bash
 
       - name: Get version from pubspec.yaml
