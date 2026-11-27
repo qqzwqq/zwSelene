@@ -1,4 +1,4 @@
-name: Build Selene
+name: 构建我是挖洋镐的
 
 on:
   push:
