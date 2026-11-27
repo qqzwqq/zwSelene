@@ -27,7 +27,8 @@ jobs:
             build-args: "--android-only"
 
           - name: macos_ios
-            os: macos-latest
+            # 使用已验证成功的 Intel macOS Runner，避开 ARM64 Runner 容量问题
+            os: macos-15-intel
             build-args: "--apple-only --sequential"
 
           - name: windows-amd64
