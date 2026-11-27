@@ -12,10 +12,6 @@ on:
         default: "main"
         type: string
 
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
-
 permissions:
   contents: write
   actions: write
@@ -90,6 +86,8 @@ jobs:
       - name: Setup Android SDK
         if: matrix.name == 'android'
         uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
 
       - name: Cache Gradle
         if: matrix.name == 'android'
