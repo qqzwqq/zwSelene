@@ -226,6 +226,7 @@ jobs:
           tag_name: ${{ steps.tag_version.outputs.version }}
           name: 我是挖洋镐的 ${{ steps.tag_version.outputs.version }}
           files: release-files/*
+          overwrite_files: true
           draft: false
           prerelease: false
           fail_on_unmatched_files: true
