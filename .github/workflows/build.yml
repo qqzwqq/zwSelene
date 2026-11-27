@@ -1,4 +1,4 @@
-name: Build Selene
+name: 构建我是挖洋镐的
 
 on:
   push:
@@ -220,7 +220,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.tag_version.outputs.version }}
-          name: Selene ${{ steps.tag_version.outputs.version }}
+          name: 我是挖洋镐的 ${{ steps.tag_version.outputs.version }}
           files: release-files/*
           draft: false
           prerelease: false

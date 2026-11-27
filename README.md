@@ -1,10 +1,10 @@
-# Selene
+# 我是挖洋镐的
 
 <div align="center">
-  <img src="logo.jpg" alt="Selene Logo" width="120">
+  <img src="logo.jpg" alt="我是挖洋镐的 Logo" width="120">
 </div>
 
-> 🎬 **Selene** 是以 [MoonTV](https://github.com/MoonTechLab/LunaTV) v100 版本 / [Helios](https://github.com/MoonTechLab/Helios) 为后端的客户端，保证原汁原味的同时，优化了移动端和桌面端操作体验。它基于 **Flutter** 构建，目前支持 Android、iOS、macOS 和 Windows 平台。
+> 🎬 **我是挖洋镐的** 是以 [MoonTV](https://github.com/MoonTechLab/LunaTV) v100 版本 / [Helios](https://github.com/MoonTechLab/Helios) 为后端的客户端，保证原汁原味的同时，优化了移动端和桌面端操作体验。它基于 **Flutter** 构建，目前支持 Android、iOS、macOS 和 Windows 平台。
 
 <div align="center">
 
@@ -39,7 +39,7 @@
   <img src="screenshot/Screenshot_14.png" alt="项目截图">
 </details>
 
-源码见 https://github.com/MoonTechLab/Selene-Source
+项目源码见 https://github.com/qqzwqq/zwSelene-Source
 
 ### 请不要在 B站、小红书、微信公众号、抖音、今日头条或其他中国大陆社交平台发布视频或文章宣传本项目，不授权任何“科技周刊/月刊”类项目或站点收录本项目。
 
